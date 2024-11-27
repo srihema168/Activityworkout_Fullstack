@@ -1,0 +1,105 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Workout Form Container */
+.workout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 600px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.workout-container h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form Styling */
+.workout-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.workout-form div {
+    width: 100%;
+}
+
+.workout-form label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.workout-form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.workout-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
+
+.workout-form button:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .workout-container {
+        padding: 20px;
+    }
+
+    .workout-container h2 {
+        font-size: 28px;
+    }
+
+    .workout-form label {
+        font-size: 16px;
+    }
+
+    .workout-form input {
+        font-size: 14px;
+    }
+
+    .workout-form button {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,429 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container to center content */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+/* Auth Pages (Login/Registration) */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #333;
+}
+
+.auth-container form {
+  width: 100%;
+}
+
+.auth-container form div {
+  margin-bottom: 20px;
+}
+
+.auth-container label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 16px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.auth-container button:hover {
+  background-color: #45a049;
+}
+
+.auth-container p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Dashboard Page */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.dashboard-container h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #333;
+}
+
+/* Workout and Graph Section */
+.workout-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.graph-container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Container (Horizontal Layout) */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.button-container button {
+  width: auto;
+  padding: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.button-container button:hover {
+  background-color: #45a049;
+}
+
+/* General Button Styling */
+button {
+  padding: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #757575;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.btn-danger:hover {
+  background-color: #e53935;
+}
+
+.btn-secondary:hover {
+  background-color: #616161;
+}
+
+/* Profile Page */
+/* General page container styles */
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Profile info styles */
+.profile-info {
+  text-align: center;
+}
+
+/* Profile image - round shape */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Make it round */
+  object-fit: cover; /* Ensure the image fits the circle properly */
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.profile-form {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styles */
+.edit-btn, .save-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.edit-btn {
+  background-color: #f0ad4e;
+}
+
+.save-btn {
+  background-color: #5bc0de;
+}
+
+/* Hover effects for buttons */
+.edit-btn:hover, .save-btn:hover {
+  opacity: 0.8;
+}
+
+
+/* Workout Page */
+.workout-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.workout-page h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #333;
+}
+
+.workout-form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.workout-form div {
+  margin-bottom: 20px;
+}
+
+.workout-form label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.workout-form input, .workout-form select {
+  width: 100%;
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.workout-form button {
+  width: 100%;
+  padding: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.workout-form button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .auth-container, .profile-form, .dashboard-container, .workout-page {
+      width: 90%;
+      padding: 30px;
+  }
+
+  .workout-list li {
+      font-size: 16px;
+      padding: 12px;
+  }
+
+  .button-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .button-container button {
+      width: 100%;
+      margin: 10px 0;
+  }
+}
+.workout-list {
+  text-align: center; /* Center-aligns the content inside */
+  padding: 20px;
+}
+
+.center-heading {
+  text-align: center; /* Centers the header */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.workout-list ul {
+  list-style-type: none; /* Removes default list styles */
+  padding: 0;
+}
+
+.workout-list li {
+  margin: 10px 0; /* Adds space between each workout */
+  font-size: 18px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.form-group textarea {
+  height: 120px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+/* Button Styling for Add Workout */
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
